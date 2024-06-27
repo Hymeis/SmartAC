@@ -1,14 +1,20 @@
-For client side(raspberry Pi):
+Major Components needed:
+  - 5th Gen Raspberry Pi
+  - NKX90640 Thermal Camera
+  - Raspberry Pi Camera
+  - 4x Raspberry Pi Fans
 
-run "libcamera-vid -n -t 0 --width 1920 --height 1080 --framerate 30 --inline --listen -o tcp://172.20.10.2:8888" on one terminal
+## For client side(raspberry Pi): ##
 
-run "python3 thermal.py 172.20.10.13:8890" on the other terminal
+  Run "libcamera-vid -n -t 0 --width 1920 --height 1080 --framerate 30 --inline --listen -o tcp://172.20.10.2:8888" on 1st terminal
 
-run "python3 fan.py" on the other terminal
+  Run "python3 thermal.py 172.20.10.13:8890" on 2nd terminal
+
+  Run "python3 fan.py" on 3rd terminal
 
 
-For server side:
+## For server side: ##
 
-run "python3 detect.py --source=tcp://172.20.10.13:8888 --classes 0"
+  Run "python3 detect.py --source=tcp://172.20.10.13:8888 --classes 0"
 
-change the ip address based on the actual ip address for client and server
+  Change the ip address based on the actual ip address for client and server
