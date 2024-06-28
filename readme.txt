@@ -1,8 +1,10 @@
 Major Components needed:
-  - 5th Gen Raspberry Pi
-  - NKX90640 Thermal Camera
-  - Raspberry Pi Camera
-  - 4x Raspberry Pi Fans
+<ul>
+  <li> 5th Gen Raspberry Pi </li>
+  <li> NKX90640 Thermal Camera </li>
+  <li> Raspberry Pi Camera </li>
+  <li> 4x Raspberry Pi Fans </li>
+</ul>
 
 ## For client side(raspberry Pi): ##
 
