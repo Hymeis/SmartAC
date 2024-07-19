@@ -4,6 +4,7 @@ Major Components needed:
   <li> NKX90640 Thermal Camera </li>
   <li> Raspberry Pi Camera </li>
   <li> 4x Raspberry Pi Fans </li>
+  <li> (Optional) BreadBoard </li>
 </ul>
 
 ## For client side(raspberry Pi): ##
