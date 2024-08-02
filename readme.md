@@ -1,7 +1,7 @@
-### Smart AC ###
+## Smart AC ##
 This project involves designing an IoT system in Python to dynamically adjust multiple fan speeds based on detected human presence and respective temperatures
 
-Major Components needed:
+## Major Components needed ##
 <ul>
   <li> 5th Gen Raspberry Pi </li>
   <li> NKX90640 Thermal Camera </li>
